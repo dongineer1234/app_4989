@@ -94,21 +94,6 @@ section .slide li div span {
   text-shadow: 2px 2px 4px rgb(88, 87, 87);
 }
 
-section .slide li div button {
-  position: absolute;
-  bottom: 50px;
-  right: 250px;
-  color: #ffffff;
-  background-color: #8b3d37;
-  font-size: 50px;
-  font-weight: bold;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
 section .slide li div button::before {
   display: flex;
   position: absolute;
