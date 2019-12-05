@@ -237,8 +237,8 @@ section .slide li div button {
 }
 
 .focus_product {
-  width: 350px;
-  height: 550px;
+  width: 550px;
+  height: 750px;
 }
 
 .focus_product-1 {
@@ -248,7 +248,7 @@ section .slide li div button {
 
 .product_info {
   margin-left: 20px;
-  width: 450px;
+  width: 950px;
   height: 420px;
 }
 
@@ -264,7 +264,7 @@ section .slide li div button {
 .product_info_bar {
   margin-top: 8px;
   margin-bottom: 20px;
-  width: 520px;
+  width: 565px;
   height: 0.5px;
 }
 
@@ -289,4 +289,65 @@ section .slide li div button {
 
 .gray {
   color: gray;
+}
+
+.product_info_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.btn_buy {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #e63740;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.btn_basket {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ffd84f;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.btn_buy {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #e63740;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.btn_basket {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ffd84f;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.btn_buy:hover {
+  background-color: #e63740;
+  opacity: 0.8;
+}
+
+.btn_basket:hover {
+  background-color: #ffd84f;
+  opacity: 0.8;
 }
