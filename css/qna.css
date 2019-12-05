@@ -1,0 +1,148 @@
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* nav_header */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1280px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+nav .logo {
+  font-family: "Cute Font", cursive;
+  font-size: 70px;
+  margin-left: 100px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 56px;
+}
+
+nav button {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #8a231c;
+  color: #ffffff;
+  font-size: 10px;
+  position: relative;
+  left: -120px;
+  cursor: pointer;
+}
+
+nav button:active {
+  background-color: #8a231c;
+  opacity: 0.6;
+}
+
+/* visual slide */
+section {
+  margin: 0 auto;
+  height: 450px;
+}
+
+section .slide li .slide__bg__1 {
+  position: relative;
+  height: 450px;
+}
+
+section .slide li .slide__bg__1::after {
+  content: "";
+  position: absolute;
+  top: -300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  background: url(../images/slide__bg__1.jpg);
+  background-size: 100%;
+}
+
+section .slide li div span {
+  position: absolute;
+  top: 80px;
+  right: 200px;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgb(88, 87, 87);
+}
+
+section .slide li div button {
+  position: absolute;
+  bottom: 50px;
+  right: 250px;
+  color: #ffffff;
+  background-color: #8b3d37;
+  font-size: 50px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+section .slide li div button::before {
+  display: flex;
+  position: absolute;
+  bottom: 13px;
+  right: 40px;
+  flex-direction: row;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.qna {
+  width: 950px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 20px;
+  color: black;
+}
+
+.time {
+  display: flex;
+}
+
+.question {
+  color: #8a231c;
+  font-weight: bold;
+}
+
+.answer ul {
+  margin-left: 30px;
+}
+
+.answer li {
+  list-style: circle;
+}
