@@ -1,0 +1,273 @@
+body {
+  width: 1280px;
+}
+
+/* nav_header */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1280px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+nav .logo {
+  margin: 20px 20px 20px 350px;
+  font-family: "Cute Font", cursive;
+  font-size: 70px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 56px;
+}
+
+nav button {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #8a231c;
+  color: #ffffff;
+  font-size: 10px;
+  position: relative;
+  left: -120px;
+  cursor: pointer;
+}
+
+nav button:active {
+  background-color: #8a231c;
+  opacity: 0.6;
+}
+
+/* visual slide */
+section {
+  margin: 0 auto;
+  height: 450px;
+  padding-left: 250px;
+}
+
+section .slide li .slide__bg__1 {
+  position: relative;
+  height: 450px;
+}
+
+section .slide li .slide__bg__1::after {
+  content: "";
+  position: absolute;
+  top: -300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  background: url(../images/slide__bg__1.jpg);
+  background-size: 100%;
+}
+
+section .slide li div span {
+  position: absolute;
+  top: 80px;
+  right: 200px;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgb(88, 87, 87);
+}
+
+section .slide li div button {
+  position: absolute;
+  bottom: 50px;
+  right: 250px;
+  color: #ffffff;
+  background-color: #8b3d37;
+  font-size: 50px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+section .slide li div button::before {
+  display: flex;
+  position: absolute;
+  bottom: 13px;
+  right: 40px;
+  flex-direction: row;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+/*recommended main*/
+.recommended {
+  margin: 25px auto;
+  padding-left: 250px;
+  width: 950px;
+}
+
+.recommended__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recommended__top .top-left {
+  border: 1.5px solid #8b3d37;
+  padding: 6px 20px 6px 20px;
+  border-radius: 50px;
+  color: #8b3d37;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.recommended__top .top-left i {
+  font-size: 10px;
+}
+
+.recommended__top .top-right {
+  font-size: 18px;
+}
+
+.recommended__top .top-right i {
+  color: #8b3d37;
+  margin-right: 25px;
+}
+
+.recommended__bottom {
+  width: 950px;
+  height: 300px;
+  margin: 25px auto;
+}
+
+.bar {
+  width: 950px;
+  height: 1px;
+  background-color: #707070;
+}
+
+.recommended__bottom .recommended-product {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.product {
+  width: 200px;
+  height: 300px;
+}
+
+.recommended-1 {
+  background: url(../images/picture1.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.recommended-2 {
+  background: url(../images/picture2.jpg) no-repeat;
+  margin-left: 25px;
+  background-size: 100%;
+}
+
+.recommended-3 {
+  background: url(../images/picture3.jpg) no-repeat;
+  margin-left: 25px;
+  background-size: 100%;
+}
+
+.recommended-4 {
+  background: url(../images/picture4.jpg) no-repeat;
+  margin-left: 25px;
+  background-size: 100%;
+}
+
+/*new product*/
+.new_product {
+  margin: 25px auto;
+  padding-left: 250px;
+  width: 950px;
+}
+
+.new_product__top {
+  display: flex;
+}
+
+.new_product__top .top-left {
+  border: 1.5px solid #8b3d37;
+  padding: 5px 31px 5px 31px;
+  border-radius: 50px;
+  color: #8b3d37;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.new_product__top .top-left i {
+  font-size: 12px;
+}
+
+.new_product__bottom {
+  width: 950px;
+  height: 300px;
+  margin: 25px auto;
+}
+
+.bar {
+  width: 950px;
+  height: 1px;
+  background-color: #707070;
+}
+
+.new_product__bottom .new_product-product {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.product {
+  width: 200px;
+  height: 300px;
+}
+
+.new_product-1 {
+  background: url(../images/picture1.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.new_product-2 {
+  background: url(../images/picture2.jpg) no-repeat;
+  margin-left: 25px;
+  background-size: 100%;
+}
+
+.new_product-3 {
+  background: url(../images/picture3.jpg) no-repeat;
+  margin-left: 25px;
+  background-size: 100%;
+}
+
+.new_product-4 {
+  background: url(../images/picture4.jpg) no-repeat;
+  margin-left: 25px;
+  background-size: 100%;
+}
